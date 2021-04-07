@@ -1,0 +1,358 @@
+[
+    {
+        "title": "Planners",
+        "submenu": [    
+            {
+                "title": "1950s",
+                "artists": [
+                    "Miles Davis",
+                    "Chet Baker",
+                    "John Coltrane",
+                    "Little Richard",
+                    "David Brubeck"
+                ]
+            },    
+            {
+                "title": "1960s",
+                "artists": [
+                    "The Beatles",
+                    "Bob Dylan",
+                    "The Stooges",
+                    "Jacques Brel",
+                    "The Moody Blues"
+                ]
+            },
+            {
+                "title": "1970s",
+                "artists": [
+                    "David Bowie",
+                    "Pink Floyd",
+                    "Black Sabbath",
+                    "Neil Young",
+                    "Steely Dan"
+                ]
+            },
+            {
+                "title": "1980s",
+                "artists": [
+                    "The Smiths",
+                    "The Cure",
+                    "Metallica",
+                    "Dinosaur Jr",
+                    "Swans"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Notebooks",
+        "submenu": [
+            {
+                "title": "1990s",
+                "artists": [
+                    "Alice in Chains",
+                    "Oasis",
+                    "Kyuss",
+                    "Deftones",
+                    "Electric Wizard"
+                ]
+            },
+            {
+                "title": "2000s",
+                "artists": [
+                    "Arctic Monkeys",
+                    "The Strokes",
+                    "The Libertines",
+                    "Daft Punk",
+                    "The White Stripes"
+                ]
+            },
+            {
+                "title": "2010s",
+                "artists": [
+                    "Tame Impala",
+                    "The Last Shadow Puppets",
+                    "Khruangbin",
+                    "Cosmo Pyke",
+                    "Young Thug"
+                ]
+            },
+            {
+                "title": "2020s",
+                "artists": [
+                    "More to be added"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Smart Tools",
+        "submenu": [
+            {
+                "title": "1950s",
+                "artists": [
+                    "Miles Davis",
+                    "Chet Baker",
+                    "John Coltrane",
+                    "Little Richard",
+                    "David Brubeck"
+                ]
+            },
+            {
+                "title": "1960s",
+                "artists": [
+                    "The Beatles",
+                    "Bob Dylan",
+                    "The Stooges",
+                    "Jacques Brel",
+                    "The Moody Blues"
+                ]
+            },
+            {
+                "title": "1970s",
+                "artists": [
+                    "David Bowie",
+                    "Pink Floyd",
+                    "Black Sabbath",
+                    "Neil Young",
+                    "Steely Dan"
+                ]
+            },
+            {
+                "title": "1980s",
+                "artists": [
+                    "The Smiths",
+                    "The Cure",
+                    "Metallica",
+                    "Dinosaur Jr",
+                    "Swans"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Bags & Travel",
+        "submenu": [
+            {
+                "title": "1950s",
+                "artists": [
+                    "Miles Davis",
+                    "Chet Baker",
+                    "John Coltrane",
+                    "Little Richard",
+                    "David Brubeck"
+                ]
+            },
+            {
+                "title": "1960s",
+                "artists": [
+                    "The Beatles",
+                    "Bob Dylan",
+                    "The Stooges",
+                    "Jacques Brel",
+                    "The Moody Blues"
+                ]
+            },
+            {
+                "title": "1970s",
+                "artists": [
+                    "David Bowie",
+                    "Pink Floyd",
+                    "Black Sabbath",
+                    "Neil Young",
+                    "Steely Dan"
+                ]
+            },
+            {
+                "title": "1980s",
+                "artists": [
+                    "The Smiths",
+                    "The Cure",
+                    "Metallica",
+                    "Dinosaur Jr",
+                    "Swans"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Accessories",
+        "submenu": [
+            {
+                "title": "1950s",
+                "artists": [
+                    "Miles Davis",
+                    "Chet Baker",
+                    "John Coltrane",
+                    "Little Richard",
+                    "David Brubeck"
+                ]
+            },
+            {
+                "title": "1960s",
+                "artists": [
+                    "The Beatles",
+                    "Bob Dylan",
+                    "The Stooges",
+                    "Jacques Brel",
+                    "The Moody Blues"
+                ]
+            },
+            {
+                "title": "1970s",
+                "artists": [
+                    "David Bowie",
+                    "Pink Floyd",
+                    "Black Sabbath",
+                    "Neil Young",
+                    "Steely Dan"
+                ]
+            },
+            {
+                "title": "1980s",
+                "artists": [
+                    "The Smiths",
+                    "The Cure",
+                    "Metallica",
+                    "Dinosaur Jr",
+                    "Swans"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Gift Ideas",
+        "submenu": [
+            {
+                "title": "1950s",
+                "artists": [
+                    "Miles Davis",
+                    "Chet Baker",
+                    "John Coltrane",
+                    "Little Richard",
+                    "David Brubeck"
+                ]
+            },
+            {
+                "title": "1960s",
+                "artists": [
+                    "The Beatles",
+                    "Bob Dylan",
+                    "The Stooges",
+                    "Jacques Brel",
+                    "The Moody Blues"
+                ]
+            },
+            {
+                "title": "1970s",
+                "artists": [
+                    "David Bowie",
+                    "Pink Floyd",
+                    "Black Sabbath",
+                    "Neil Young",
+                    "Steely Dan"
+                ]
+            },
+            {
+                "title": "1980s",
+                "artists": [
+                    "The Smiths",
+                    "The Cure",
+                    "Metallica",
+                    "Dinosaur Jr",
+                    "Swans"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Personalize",
+        "submenu": [
+            {
+                "title": "1950s",
+                "artists": [
+                    "Miles Davis",
+                    "Chet Baker",
+                    "John Coltrane",
+                    "Little Richard",
+                    "David Brubeck"
+                ]
+            },
+            {
+                "title": "1960s",
+                "artists": [
+                    "The Beatles",
+                    "Bob Dylan",
+                    "The Stooges",
+                    "Jacques Brel",
+                    "The Moody Blues"
+                ]
+            },
+            {
+                "title": "1970s",
+                "artists": [
+                    "David Bowie",
+                    "Pink Floyd",
+                    "Black Sabbath",
+                    "Neil Young",
+                    "Steely Dan"
+                ]
+            },
+            {
+                "title": "1980s",
+                "artists": [
+                    "The Smiths",
+                    "The Cure",
+                    "Metallica",
+                    "Dinosaur Jr",
+                    "Swans"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "M World",
+        "submenu": [
+            {
+                "title": "1950s",
+                "artists": [
+                    "Miles Davis",
+                    "Chet Baker",
+                    "John Coltrane",
+                    "Little Richard",
+                    "David Brubeck"
+                ]
+            },
+            {
+                "title": "1960s",
+                "artists": [
+                    "The Beatles",
+                    "Bob Dylan",
+                    "The Stooges",
+                    "Jacques Brel",
+                    "The Moody Blues"
+                ]
+            },
+            {
+                "title": "1970s",
+                "artists": [
+                    "David Bowie",
+                    "Pink Floyd",
+                    "Black Sabbath",
+                    "Neil Young",
+                    "Steely Dan"
+                ]
+            },
+            {
+                "title": "1980s",
+                "artists": [
+                    "The Smiths",
+                    "The Cure",
+                    "Metallica",
+                    "Dinosaur Jr",
+                    "Swans"
+                ]
+            }
+        ]
+    }
+]
