@@ -8,6 +8,11 @@
   position: relative;
 }
 
+svg path {
+  shape-rendering: geometricPrecision;
+}
+
+
 .category::after {
   content: '';
   width:'60px';
