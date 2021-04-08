@@ -7,28 +7,25 @@ const NavbarItemDesktop = ({ submenu, title }) => {
 
     const [showSubMenu, setShowSubMenu] = useState(false)
 
-    const [liftBorder, setLiftBorder] = useState(false)
+    const [liftPut, setLiftPut] = useState(false)
 
     const ref = useRef()
 
     function toggle() {
         setShowSubMenu(!showSubMenu)
+        setLiftPut(!liftPut)
     }
 
-    function toggleLift() {
-        setLiftBorder(!liftBorder)
-    }
-
-    function onClickBorderBehaviour(showSubMenu){
-        showSubMenu ? (toggleLift = null) : toggleLift
-        }
-
-    useOutsideClick(ref, () => setShowSubMenu(false))
+    useOutsideClick(ref, () => {
+        setLiftPut(false)
+        setShowSubMenu(false)
+    })
 
     return (
         <div ref={ref} className='flex flex-col items-center w-full'>
-            <h1 onMouseEnter={toggleLift} onMouseLeave={toggleLift} onClick={toggle, onClickBorderBehaviour}
-                className={style.category}>{title}</h1>
+            <h1 onClick={toggle}
+                className={liftPut ? style.categoryClicked : style.category}>{title}</h1>
+                <div className='w-full border-b-4 border-black shadow-bottomSide'></div>
             <div className='block'>
                 <CategoryDesktop submenu={submenu} title={title} showSubMenu={showSubMenu} />
             </div>

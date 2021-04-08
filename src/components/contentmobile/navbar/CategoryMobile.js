@@ -18,7 +18,7 @@ const Category = ({ title, submenu }) => {
                 <div className={showSubMenu ? '' : 'invisible'}>
                     <ArrowLeft />
                 </div>
-                <h1 onClick={toggle} className='pr-4 uppercase text-categoryHeader font-medium tracking-wider'>{title}</h1>
+                <h1 onClick={toggle} className='pr-4 uppercase text-xl py-6 self-center font-medium tracking-wider'>{title}</h1>
             </div>
             <SectionMobile submenu={submenu} toggle={showSubMenu} />
             {showSubMenu ?

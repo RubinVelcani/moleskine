@@ -5,7 +5,7 @@ import SectionDesktop from './SectionDesktop'
 const CategoryDesktop = ({ submenu, title, showSubMenu }) => {
 
     return (
-        <div className={showSubMenu ? 'absolute border-t-4 border-black left-0 w-full' : 'absolute border-t-4 border-black left-0 w-full hidden'}>
+        <div className={showSubMenu ? 'absolute left-0 w-full bg-white' : 'absolute left-0 w-full bg-white hidden'}>
             <SectionDesktop submenu={submenu} title={title}/>
         </div>
     )

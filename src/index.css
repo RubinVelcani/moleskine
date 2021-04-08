@@ -2,21 +2,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@layer utilities {
-
-    .hover-border\:border-lift:hover {
-        transform: translateY(-8px, 0), scaleX(0.5);
-        transition-duration: 1000;
-        transition-timing-function: ease-in-out;
-      }
-
-    @variants hover, focus{
-      .border-svg {
-        border: 6px solid transparent;
-        border-image-source: url('./icons/BorderSvg.svg');
-        border-image-slice: 7;
-        border-image-width: 0 0 100% 0;
-      }
-    }
-  }
