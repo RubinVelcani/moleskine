@@ -18,7 +18,7 @@ module.exports = {
       },
       screens: {
         'lm': '461px'
-      },
+      }
     },
   },
   variants: {

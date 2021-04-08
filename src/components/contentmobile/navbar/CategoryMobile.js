@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 
 import SectionMobile from './SectionMobile'
+import LastSubmenuItem from '../../contentdesktop/navbar/submenu/LastSubmenuItem'
 
 import ArrowLeft from '../../../icons/ArrowLeft'
 
@@ -22,10 +23,7 @@ const Category = ({ title, submenu }) => {
             </div>
             <SectionMobile submenu={submenu} toggle={showSubMenu} />
             {showSubMenu ?
-                <div className='flex flex-row items-center justify-between pl-12'>
-                    <h3>David Bowie</h3>
-                    <img src='/images/heroesCDMobile.jpg' alt='heroes-vinyl'/>
-                </div>
+                <LastSubmenuItem/>
                 : (null)
             }
         </div>
