@@ -1,6 +1,4 @@
 import React, { useState } from 'react'
-import { act } from 'react-dom/test-utils'
-
 import Square from '../../../../icons/Square'
 
 const CellDesktop = ({ nam }) => {

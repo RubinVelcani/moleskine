@@ -88,16 +88,7 @@
     {
         "title": "Smart Tools",
         "submenu": [
-            {
-                "title": "1950s",
-                "artists": [
-                    "Miles Davis",
-                    "Chet Baker",
-                    "John Coltrane",
-                    "Little Richard",
-                    "David Brubeck"
-                ]
-            },
+            
             {
                 "title": "1960s",
                 "artists": [
@@ -133,26 +124,7 @@
     {
         "title": "Bags & Travel",
         "submenu": [
-            {
-                "title": "1950s",
-                "artists": [
-                    "Miles Davis",
-                    "Chet Baker",
-                    "John Coltrane",
-                    "Little Richard",
-                    "David Brubeck"
-                ]
-            },
-            {
-                "title": "1960s",
-                "artists": [
-                    "The Beatles",
-                    "Bob Dylan",
-                    "The Stooges",
-                    "Jacques Brel",
-                    "The Moody Blues"
-                ]
-            },
+            
             {
                 "title": "1970s",
                 "artists": [

@@ -15,11 +15,11 @@ const Header = ({ showMenu, setShowMenu }) => {
                 <div className='hidden lg:block'>
                     <CompanyLogoDesktop />
                 </div>
-                <div className='block lg:hidden'>
+                <div className='lg:hidden'>
                     <CompanyLogoMobile />
                 </div>
                 <div className='flex flex-row justify-between pl-7 items-center'>
-                    <div className='hidden font-medium lg:flex lg:border-r-2 lg:pl-5 pr-6'>
+                    <div className='hidden font-medium tracking-wide text-xs lg:flex lg:border-r-2 lg:pl-5 pr-6'>
                         <p className='pr-5 cursor-default'>Stores</p>
                         <p className='cursor-default'>Support</p>
                     </div>

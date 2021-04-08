@@ -6,10 +6,13 @@ import Data from '../../../data.json'
 const NavBar = () => {
 
     return (
-        <div className='flex flex-row w-full text-center items-center'>
+        <div className='flex flex-row'>
+            <div className='flex flex-row text-center items-center min-w-lg'>
                 {Data.map(category => {
                     return (<NavbarItem submenu={category.submenu} title={category.title} />)
                 })}
+            </div>
+            <div className='w-full border-b-4 border-black self-end left-inherit right-0'></div>
         </div>
     )
 }

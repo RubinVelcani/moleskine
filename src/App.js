@@ -16,7 +16,7 @@ function App() {
   return (
     <div className=''>
       <Header showMenu={showMenu} setShowMenu={toggle} />
-      <div className='block lg:hidden'>
+      <div className='lg:hidden'>
         <ContentAreaMobile showMenu={showMenu} />
       </div>
       <div className='hidden lg:block'>
