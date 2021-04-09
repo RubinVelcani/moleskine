@@ -4,13 +4,13 @@ import NavBar from './navbar/NavBarMobile'
 import Content from '../../Content'
 import useOutsideClick from '../helpers/useOutsideClick'
 
-const ContentArea = ({ showMenu, toggle }) => {
+const ContentArea = ({ showMenu, setShowMenu }) => {
 
     const ref = useRef()
 
     useOutsideClick(ref, () => {
         if(showMenu)
-        toggle()
+        setShowMenu()
     })
 
     return (

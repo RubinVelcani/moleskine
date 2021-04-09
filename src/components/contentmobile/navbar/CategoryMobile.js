@@ -6,11 +6,13 @@ import useOutsideClick from '../../helpers/useOutsideClick'
 
 import ArrowLeft from '../../../icons/ArrowLeft'
 
-const Category = ({ title, submenu }) => {
+const Category = ({ title, submenu, checkSubmenu }) => {
 
     const [showSubMenu, setShowSubMenu] = useState(false)
+    const [subMenuCheck, setSubMenuCheck] = useState(false)
 
     const ref = useRef()
+    let titleSecond
 
     function toggle() {
         setShowSubMenu(!showSubMenu)
@@ -20,19 +22,28 @@ const Category = ({ title, submenu }) => {
         setShowSubMenu(false)
     })
 
+    function onClick() {
+        toggle()
+        setSubMenuCheck(!subMenuCheck)
+        checkSubmenu(title)
+        titleSecond = title
+    }
+
     return (
         <div ref={ref} className='w-full text-right transition cursor-default'>
-            <div className='flex flex-row items-center justify-between pl-8'>
+            <div onClick={onClick} className={showSubMenu ? 'flex flex-row items-center justify-between pl-8 border-b' : 'flex flex-row items-center justify-between pl-8'}>
                 <div className={showSubMenu ? '' : 'invisible'}>
                     <ArrowLeft />
                 </div>
-                <h1 onClick={toggle} className='pr-4 uppercase text-xl py-6 self-center font-medium tracking-wider'>{title}</h1>
+                <h1 className='pr-4 uppercase text-xl py-6 self-center font-medium tracking-wider'>{title}</h1>
             </div>
-            <SectionMobile submenu={submenu} toggle={showSubMenu} />
-            {showSubMenu ?
-                <LastSubmenuItem/>
-                : (null)
-            }
+            <div className={checkSubmenu(title, titleSecond) ? 'block' : 'hidden'}>
+                <SectionMobile submenu={submenu} toggle={showSubMenu} title={title} checkSubmenu={checkSubmenu} />
+                {showSubMenu ?
+                    <LastSubmenuItem />
+                    : (null)
+                }
+            </div>
         </div>
     )
 }
