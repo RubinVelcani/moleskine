@@ -9,7 +9,7 @@ const SectionColumn = ({ submenu }) => {
         <div className={'flex flex-row w-full pt-10 bg-white'}>
             {
                 submenu.map((decade, i) => {
-                    return (<UnitDesktop key={i} decade={decade}/>)
+                    return (<UnitDesktop key={i}decade={decade}/>)
                 })
             }
             <LastSubmenuItem/>
