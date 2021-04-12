@@ -1,0 +1,27 @@
+.preClick {
+    display: none;
+    flex-direction: column;
+    align-items: flex-end;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: #e5e7eb;
+}
+
+.postClick {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: #e5e7eb;
+    animation: slideIn 0.5s both;
+    transform: translateX(0%);
+    animation-timing-function: ease-in;
+}
+
+@keyframes slideIn {
+    0%   {display: none;opacity: 0; transform: translateX(100%);}
+    25%   {display: flex;opacity: 0.25; transform: translateX(50%);}
+    50%   {display: flex;opacity: 0.25; transform: translateX(25%);}
+    100%   {display: flex;opacity: 1; transform: translateX(0%);}
+  }
