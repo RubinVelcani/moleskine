@@ -6,7 +6,7 @@ import UnitDesktop from './UnitDesktop'
 const SectionColumn = ({ submenu }) => {
 
     return (
-        <div className={'flex flex-row w-full pt-10 bg-white'}>
+        <div className={'flex flex-row w-full pt-10 bg-white border-b-2'}>
             {
                 submenu.map((decade, i) => {
                     return (<UnitDesktop key={i}decade={decade}/>)

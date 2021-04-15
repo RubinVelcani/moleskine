@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react'
 
 import SectionMobile from './SectionMobile'
-import useOutsideClick from '../../helpers/useOutsideClick'
+import UseOutsideClick from '../../helpers/UseOutsideClick'
 
 import ArrowLeft from '../../../icons/ArrowLeft'
 
@@ -15,12 +15,12 @@ const Category = ({ title, submenu }) => {
         setShowSubMenu(!showSubMenu)
     }
 
-    useOutsideClick(ref, () => {
+    UseOutsideClick(ref, () => {
         setShowSubMenu(false)
     })
 
     return (
-        <div ref={ref} className='w-full text-right transition cursor-default'>
+        <div ref={ref} className='w-full text-right transition cursor-pointer'>
             <div onClick={toggle} className='flex flex-row items-center justify-between pl-8'>
                 <div className={showSubMenu ? '' : 'invisible'}>
                     <ArrowLeft />

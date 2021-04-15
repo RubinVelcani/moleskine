@@ -1,17 +1,13 @@
 .category {
   width: 'full';
   text-transform: uppercase;
+  cursor: pointer;
   font-size: 0.75rem;
   padding: 1rem 0.75rem 0.5rem;
   font-weight: 500;
 	letter-spacing: 0.0625em;
   position: relative;
 }
-
-svg path {
-  shape-rendering: geometricPrecision;
-}
-
 
 .category::after {
   content: '';
@@ -35,14 +31,17 @@ svg path {
 
  @keyframes waveUp {
   0%   {opacity: 0; transform: translateY(1.5rem);}
-  70%  {opacity: 0.01; transform: translateY(1.3rem);}
-  80%  {opacity: 0.1; transform: translateY(1.1rem);}
+  80%  {opacity: 0.01; transform: translateY(1.3rem);}
+  85%  {opacity: 0.05; transform: translateY(1rem);}
+  90%  {opacity: 0.5; transform: translateY(0.95rem);}
+  95%  {opacity: 0.8; transform: translateY(0.9rem);}
   100% {opacity: 1; transform: translateY(0.85rem);}
 }
 
 .categoryClicked {
   width: 'full';
   text-transform: uppercase;
+  cursor: pointer;
   font-size: 0.75rem;
   padding: 1rem 0.75rem 0.5rem;
   font-weight: 500;

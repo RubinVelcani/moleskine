@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react'
 import CategoryDesktop from './submenu/CategoryDesktop'
-import useOutsideClick from '../../helpers/useOutsideClick'
+import UseOutsideClick from '../../helpers/UseOutsideClick'
 import style from './NavBarItem.module.css'
 
 const NavbarItemDesktop = ({ submenu, title }) => {
@@ -22,13 +22,13 @@ const NavbarItemDesktop = ({ submenu, title }) => {
         setLiftPut(!liftPut)
     }
 
-    useOutsideClick(ref, () => {
+    UseOutsideClick(ref, () => {
         setLiftPut(false)
         setShowSubMenu(false)
     })
 
     return (
-        <div ref={ref} className='flex flex-col items-center w-full cursor-default'>
+        <div ref={ref} className='flex flex-col items-center w-full'>
             <h1 onClick={toggle} onMouseEnter={toggleHoverCheck} className={liftPut ? style.categoryClicked : style.category}>{title}</h1>
             <div className='w-full border-b-4 border-black shadow-bottomSide'></div>
             <div className='block'>

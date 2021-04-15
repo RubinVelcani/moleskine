@@ -10,11 +10,11 @@ const CellDesktop = ({ nam }) => {
     }
 
     return (
-        <div onMouseEnter={toggle} onMouseLeave={toggle} className='flex flex-row items-center'>
+        <div onMouseEnter={toggle} onMouseLeave={toggle} className='flex flex-row items-center justify-start'>
             <div className={actHover ? '-left-3 relative visible' : '-left-3 relative invisible'}>
                 <Square />
             </div>
-            <p className='py-3 cursor-default'>{nam}</p>
+            <p className='cursor-pointer -left-2 py-2 pr-1 my-1'>{nam}</p>
         </div>
     )
 }

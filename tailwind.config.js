@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       width: {
-        '1/2md': '384px'
+        '1/2md': '384px',
+        '86': '86.6%'
       },
       minWidth: {
         'lg': '1024px'
@@ -22,7 +23,9 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      borderWidth: ['last'],
+    }
   },
   plugins: [],
 }
