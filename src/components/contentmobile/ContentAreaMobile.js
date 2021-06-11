@@ -2,7 +2,7 @@ import React, {useRef} from 'react'
 
 import NavBar from './navbar/NavBarMobile'
 import Content from '../../Content'
-import UseOutsideClick from './helpers/UseOutsideClick'
+import UseOutsideClick from '../helpers/UseOutsideClick'
 
 const ContentArea = ({ showMenu, toggle }) => {
 
